@@ -1,0 +1,137 @@
+[{
+    "_id": {
+      "$oid": "5eee651f739f8c674fd736ee"
+    },
+    "name": "Junior Club Burger",
+    "image": "junior.png",
+    "price": "50",
+    "type": "VEG"
+  },{
+    "_id": {
+      "$oid": "5eee6671a27a66807cf2bea3"
+    },
+    "name": "Royal Burger",
+    "image": "royal.png",
+    "price": "100",
+    "type": "VEG"
+  },{
+    "_id": {
+      "$oid": "5eee6692a27a66807cf2bea4"
+    },
+    "name": "Island Burger",
+    "image": "island.png",
+    "price": "130",
+    "type": "NON-VEG"
+  },{
+    "_id": {
+      "$oid": "5eee66a5a27a66807cf2bea5"
+    },
+    "name": "Devil Burger",
+    "image": "burger.png",
+    "price": "150",
+    "type": "NON-VEG"
+  },{
+    "_id": {
+      "$oid": "5eee66c4a27a66807cf2bea6"
+    },
+    "name": "French Fries",
+    "image": "fries.png",
+    "price": "70",
+    "type": "VEG"
+  },{
+    "_id": {
+      "$oid": "5eee66cfa27a66807cf2bea7"
+    },
+    "name": "Crinkle Fries",
+    "image": "crinkle.png",
+    "price": "80",
+    "type": "VEG"
+  },
+  {
+    "_id": {
+      "$oid": "5eee66eea27a66807cf2bea8"
+    },
+    "name": "Peri Peri pizza",
+    "image": "peri.png",
+    "price": "100",
+    "type": "VEG"
+  },
+  { 
+    "_id": {
+      "$oid": "5eee6717a27a66807cf2bea9"
+    },
+    "name": "Cheese Fries",
+    "image": "cheesefries.png",
+    "price": "120",
+    "type": "VEG"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6717a27b66805cf2bea5"
+    },
+    "name": "Choclate Shake",
+    "image": "choclate.png",
+    "price": "70",
+    "type": "VEG"
+  },
+  {
+    "_id": {
+      "$oid": "5eee69eea28a67807cf3bea1"
+    },
+    "name": "Stawberry Shake",
+    "image": "stawberry.png",
+    "price": "80",
+    "type": "VEG"
+  },
+  {
+    "_id": {
+      "$oid": "5eee61eea29a60707cf3bea2"
+    },
+    "name": "Oreo Shake",
+    "image": "oreo.png",
+    "price": "100",
+    "type": "VEG"
+  },
+  {
+    "_id": {
+      "$oid": "5eee66eef27a61607cf3bea3"
+    },
+    "name": "Sundae Milkshake",
+    "image": "sundae.png",
+    "price": "120",
+    "type": "VEG"
+  },
+  {
+    "_id": {
+      "$oid": "5eee66a5e27a62807cf2bea4"
+    },
+    "name": "Junior Veg Combo",
+    "image": "juniorcombo.png",
+    "price": "100",
+    "type": "Veg Junior Burger + Fries + Pepsi"
+  },{
+    "_id": {
+      "$oid": "5eee66a5d27a63807cf2bea5"
+    },
+    "name": "Royal Combo",
+    "image": "combo.png",
+    "price": "150",
+    "type": "Royal Veg Burger + Fries + Pepsi"
+  },{
+    "_id": {
+      "$oid": "5eee66a5c27a64807cf2bea6"
+    },
+    "name": "Island Combo",
+    "image": "nonvegcombo2.png",
+    "price": "180",
+    "type": "Burger(Non-Veg)+Fries+Pepsi"
+  },{
+    "_id": {
+      "$oid": "5eee66a5b27a65807cf2bea7"
+    },
+    "name": "Devil Combo",
+    "image": "nonvegcombo.png",
+    "price": "200",
+    "type": "Burger(Non-Veg)+Fries+Pepsi"
+  }
+] 
