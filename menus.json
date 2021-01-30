@@ -51,7 +51,7 @@
     "_id": {
       "$oid": "5eee66eea27a66807cf2bea8"
     },
-    "name": "Peri Peri pizza",
+    "name": "Peri Peri Fries",
     "image": "peri.png",
     "price": "100",
     "type": "VEG"
@@ -132,6 +132,6 @@
     "name": "Devil Combo",
     "image": "nonvegcombo.png",
     "price": "200",
-    "type": "Burger(Non-Veg)+Fries+Pepsi"
+    "type": "Burger(Non-Veg)+Fries+Coke"
   }
 ] 
