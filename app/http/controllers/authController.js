@@ -19,11 +19,11 @@ function authController() {
             }
             passport.authenticate('local', (err, user, info) => {
                 if(err) {
-                    req.flash('error', info.message )
+                    req.flash('error', ' Incorrect Email or Password' )
                     return next(err)
                 }
                 if(!user) {
-                    req.flash('error', info.message )
+                    req.flash('error', ' Incorrect Email or Password' )
                     return res.redirect('/login')
                 }
                 req.logIn(user, (err) => {
