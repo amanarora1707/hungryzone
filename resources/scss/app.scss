@@ -30,6 +30,18 @@ section.hero {
 .size {
     background: $secondary;
 }
+.boxs{
+   border: 2px solid $primary;
+    
+        background: $primary;
+        border-color: $pure;
+        color: $pure;
+    
+
+    &:focus{
+        outline: none;
+    }
+}
 .add-to-cart {
     border: 2px solid $primary;
     color: $primary;

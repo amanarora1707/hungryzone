@@ -335,6 +335,17 @@ section.hero {
   background: #F8F8F8;
 }
 
+.boxs {
+  border: 2px solid #f3904d;
+  background: #f3904d;
+  border-color: #fff;
+  color: #fff;
+}
+
+.boxs:focus {
+  outline: none;
+}
+
 .add-to-cart {
   border: 2px solid #f3904d;
   color: #f3904d;
