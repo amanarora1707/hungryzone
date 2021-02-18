@@ -11,11 +11,11 @@
         <table class="w-full table-auto bg-white">
             <thead>
                 <tr>
-                    <th class="px-4 py-2 text-left">Orders</th>
-                    <th class="px-4 py-2 text-left">Phone</th>
+                    <th class="px-4 py-2 text-left">Order Id</th>
+                    <th class="px-4 py-2 text-left">Tracking</th>
+                    <th class="px-4 py-2 text-left">Contact No.</th>
                     <th class="px-4 py-2 text-left">Address</th>
                     <th class="px-4 py-2 text-left">Placed At</th>
-                    <th class="px-4 py-2 text-left">Order Tracking</th>
                 </tr>
             </thead>
             <tbody>
@@ -24,6 +24,9 @@
                 <tr>
                     <td class="border px-4 py-2">
                         <a class="link" href="/"><%= order._id %></a>
+                    </td>
+                    <td class="border px-4 py-2">
+                        <a class="link" href="/customer/orders/<%=order._id%>">Track Order</a>
                     </td>
                     <td class="border px-4 py-2">
                         <%= order.phone %>
@@ -35,9 +38,6 @@
                         <%= moment(order.createdAt).format('hh:mm A') %>
                         <br>
                         <%= moment(order.createdAt).format('DD-MM-YYYY') %>
-                    </td>
-                    <td class="border px-4 py-2">
-                        <a class="link" href="/customer/orders/<%=order._id%>">Track Order</a>
                     </td>
                 </tr>
                 <% }) %>
