@@ -26967,7 +26967,6 @@ var addToCart = document.querySelectorAll('.add-to-cart');
 var cartCounter = document.querySelector('#cartCounter');
 
 function updateCart(pizza) {
-  console.log(pizza);
   axios__WEBPACK_IMPORTED_MODULE_0___default.a.post('/update-cart', pizza).then(function (res) {
     cartCounter.innerText = res.data.totalQty;
     new noty__WEBPACK_IMPORTED_MODULE_1___default.a({
@@ -26990,12 +26989,6 @@ addToCart.forEach(function (btn) {
   btn.addEventListener('click', function (e) {
     var pizza = JSON.parse(btn.dataset.pizza);
     updateCart(pizza);
-  });
-});
-removeFromCart.forEach(function (btn) {
-  btn.addEventListener('click', function (e) {
-    var pizza = JSON.parse(btn.dataset.pizza);
-    deleteItemFromCart(pizza.item);
   });
 });
 var alertMsg = document.querySelector('#success_alert');

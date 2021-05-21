@@ -11,7 +11,7 @@ let cartCounter = document.querySelector('#cartCounter')
 
  
 function updateCart(pizza) {
-    console.log(pizza)
+    
    axios.post('/update-cart', pizza).then(res => {
     
 
@@ -43,13 +43,7 @@ addToCart.forEach((btn) => {
 })
 
 
-removeFromCart.forEach((btn) => {
-    btn.addEventListener('click', (e) => {
-        let pizza = JSON.parse(btn.dataset.pizza)
-        
-        deleteItemFromCart(pizza.item)
-    })
- })
+
 
 
 const alertMsg = document.querySelector('#success_alert')
