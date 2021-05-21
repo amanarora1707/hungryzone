@@ -4,10 +4,17 @@ import { initAdmin } from './admin'
 import moment from 'moment'
 
 let addToCart = document.querySelectorAll('.add-to-cart')
+
 let cartCounter = document.querySelector('#cartCounter')
 
+
+
+ 
 function updateCart(pizza) {
+    console.log(pizza)
    axios.post('/update-cart', pizza).then(res => {
+    
+
        cartCounter.innerText = res.data.totalQty
        new Noty({
            type: 'success',
@@ -25,12 +32,24 @@ function updateCart(pizza) {
    })
 }
 
+
 addToCart.forEach((btn) => {
    btn.addEventListener('click', (e) => {
+     
        let pizza = JSON.parse(btn.dataset.pizza)
+      
        updateCart(pizza)
    })
 })
+
+
+removeFromCart.forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+        let pizza = JSON.parse(btn.dataset.pizza)
+        
+        deleteItemFromCart(pizza.item)
+    })
+ })
 
 
 const alertMsg = document.querySelector('#success_alert')

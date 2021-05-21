@@ -35,9 +35,9 @@
                         <%= order.address %>
                     </td>
                     <td class="border px-4 py-2">
-                        <%= moment(order.createdAt).format('hh:mm A') %>
+                        <%= moment(order.createdAt).add('seconds', 19800).format('hh:mm A') %> 
                         <br>
-                        <%= moment(order.createdAt).format('DD-MM-YYYY') %>
+                        <%= moment(order.createdAt).add('seconds', 19800).format('DD-MM-YYYY')%>
                     </td>
                 </tr>
                 <% }) %>
