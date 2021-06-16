@@ -23,6 +23,8 @@
 
 
 
+
+
 - <h3> Menu </h3>
 
 ![Screenshot (33)](https://user-images.githubusercontent.com/66989611/122246657-5cd10680-cee4-11eb-91f2-f128db9c4d16.png)
@@ -48,8 +50,17 @@ Simply u can log in with registered mail id and password and then you will be re
 
 <br>
 
+
+
 - <h3>Playing with links </h3>
 
 ![Screenshot (40)](https://user-images.githubusercontent.com/66989611/122269172-8b59dc00-cefa-11eb-818b-b1d1a7822e4a.png)
 
-It is possible that some users can try to come up with new ideas of manipulating links in their order id in all such cases users will be redirected 404 error page and if the customer is logged in then the customer will be redirected to welcome page.Hey, friends please don't try all such these as you are our lovely foodies :)
+It is possible that some users can try to come up with new ideas of manipulating links in their order id in all such cases users will be redirected 404 error page and if the customer is logged in then the customer will be redirected to welcome page/home page.
+
+<br>
+
+- <h3> Tracking Order </h3>
+![Screenshot (39)](https://user-images.githubusercontent.com/66989611/122280137-800cad80-cf06-11eb-8972-00e720429b00.png)
+
+- Realtime order tracking is done using socket.io
