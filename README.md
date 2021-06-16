@@ -1,1 +1,1 @@
-![Animated GIF-source](https://user-images.githubusercontent.com/66989611/122240314-4eccb700-cedf-11eb-937b-91d449b14226.gif)
+![Animated GIF-downsized_large](https://user-images.githubusercontent.com/66989611/122241068-e205ec80-cedf-11eb-90f6-75baf7cdbd41.gif)
