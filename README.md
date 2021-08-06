@@ -29,7 +29,7 @@
 
 ![Screenshot (33)](https://user-images.githubusercontent.com/66989611/122246657-5cd10680-cee4-11eb-91f2-f128db9c4d16.png)
 
-- You can select from a wide range of food items and a **notification pops up** when we add any item to the cart. Menu items are saved in JSON format in non-sql database **MongoDB** . You can see the menu in  menus.json file in the repository where each item in the menu is linked with a unique id.
+- You can select from a wide range of food items and a **notification pops up** when we add any item to the cart. Menu items are saved in BSON format in non-sql database **MongoDB** . You can see the menu in  menus.json file in the repository where each item in the menu is linked with a unique id.
 
 
 <br>
